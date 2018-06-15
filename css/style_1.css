@@ -1,0 +1,54 @@
+/*
+* @Author: Marte
+* @Date:   2018-06-14 10:18:13
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-06-14 14:09:48
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.bground {
+    float: left;
+    width: 800px;
+    background-color: #f5f5f5;
+    border: 1px skyblue solid;
+    margin: 100px 200px;
+}
+header {
+    width: 760px;
+    height: 32px;
+    background-color: #ccc;
+    color: #fff;
+    font-size: 20px;
+    line-height: 32px;
+    padding: 20px;
+}
+
+.left-nav {
+    z-index: 99;
+    float: left;
+    width: 260px;
+    background-color: #999;
+}
+
+.left-nav p {
+    display: block;
+    width: 760px;
+    color: #2b2b2b;
+    line-height: 100px;
+    padding:  0 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.Info .column {
+    z-index: 1000;
+    /* border-bottom: 1px solid #e0e0e0; */
+    height: 99px;
+}
+
+.Info .column p{
+    font-size: 18px;
+    display: inline-block;
+    padding: 20px 0 0 20px;
+}
